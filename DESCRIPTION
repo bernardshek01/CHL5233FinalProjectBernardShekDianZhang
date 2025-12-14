@@ -8,8 +8,8 @@ Description: Computes the crude odds/risk ratio (OR/RR) and stratum-specific odd
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/bernardshek01/CHL5233FinalProjectBernardShekDianZhang
-BugReports: https://github.com/bernardshek01/CHL5233FinalProjectBernardShekDianZhang/issues
+URL: https://github.com/bernardshek01/stratifiedmeasures
+BugReports: https://github.com/bernardshek01/stratifiedmeasures/issues
 Imports: 
     epitools
 RoxygenNote: 7.3.3
