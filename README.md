@@ -22,3 +22,17 @@ library(devtools)
 devtools::install_github("bernardshek01/stratifiedmeasures")
 library(stratifiedmeasures)
 ```
+
+## Example
+
+``` r
+library(stratifiedmeasures)
+
+set.seed(123)
+exposure   <- rbinom(100, 1, 0.4)
+outcome    <- rbinom(100, 1, 0.3)
+confounder <- sample(1:3, 100, replace = TRUE)
+
+stratified_or(exposure, outcome, confounder)
+stratified_rr(exposure, outcome, confounder)
+```
